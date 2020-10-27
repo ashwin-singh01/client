@@ -19,4 +19,3 @@ Feature: Test the API
 	Given Rates API for LatestForeign Exchange Rates with base and symbol
 	When The API is provided
 	Then Verify the status code of the response is success and symbol
-	
