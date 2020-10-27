@@ -15,7 +15,7 @@ Response res ;
 
 @Given("Rates API for LatestForeign Exchange Rates with symbol")
 public void rates_api_for_latest_foreign_exchange_rates_with_symbol() {
-    // Write code here that turns the phrase above into concrete actions
+    // Write code here that turns the phrase above into concrete action
 	RestAssured.baseURI = "https://api.ratesapi.io";
     
     //throw new io.cucumber.java.PendingException();

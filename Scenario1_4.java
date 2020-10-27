@@ -14,7 +14,7 @@ public class Scenario1_4 {
 	
 	@Given("Rates API for LatestForeign Exchange Rates with base and symbol")
 	public void rates_api_for_latest_foreign_exchange_rates_with_base_and_symbol() {
-	    // Write code here that turns the phrase above into concrete actions
+	    // Write code here that turns the phrase above into concrete action
 	    //throw new io.cucumber.java.PendingException();
 		RestAssured.baseURI = "https://api.ratesapi.io";
 	    

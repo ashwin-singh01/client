@@ -17,7 +17,7 @@ public class Scenario4_1 {
 	
 	@When("The API is ailable")
 	public void the_api_is_ailable() {
-	    // Write code here that turns the phrase above into concrete actions
+	    // Write code here that turns the phrase above into concreteactions
 		res=RestAssured.get("/api/2010-01-12");
 		//throw new io.cucumber.java.PendingException();
 	}
@@ -26,7 +26,7 @@ public class Scenario4_1 {
 	public void verify_the_status_code_of_response_success() {
 	    // Write code here that turns the phrase above into concrete actions
 	    //throw new io.cucumber.java.PendingException();
-	     int status =res.getStatusCode();
+	    int status =res.getStatusCode();
 		System.out.println("Status code:"+status);
 		Assert.assertEquals(200, status);
 

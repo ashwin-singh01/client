@@ -23,7 +23,7 @@ public class Scenario5_2 {
 
 	@When("The API with symbols is Available")
 	public void the_api_with_symbols_is_available() {
-	    // Write code here that turns the phrase above into concrete actions
+	    // Write code here that turns the phraseabove into concrete actions
 	    //throw new io.cucumber.java.PendingException();
 		res=RestAssured.get("/api/2010-01-12?symbols=USD,GBP");
 

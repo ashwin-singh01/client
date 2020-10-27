@@ -1,13 +1,12 @@
 package Runner;
 import org.junit.runner.RunWith;
 
-import cucumber.api.CucumberOptions;
-import cucumber.api.junit.Cucumber;
-import io.cucumber.*;
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features="/Assignment/Features/AcceptanceCriteria3.feature",
-		glue= {"pageObject3"}
+		features="E:\\MyWorkspaces\\Assignment\\Features\\AcceptanceCriteria3.feature",
+		glue= "pageObject3"
 		
 		)
 

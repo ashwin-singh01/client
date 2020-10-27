@@ -16,7 +16,7 @@ public class Scenario5_4 {
 	Response res;
 	@Given("rates API for  Specific date foreign Exchange rates with symbol and base")
 	public void rates_api_for_specific_date_foreign_exchange_rates_with_symbol_and_base() {
-	    // Write code here that turns the phrase above into concrete actions
+	    // Write code here that turns the phrase above into concrete action
 	    //throw new io.cucumber.java.PendingException();
 		RestAssured.baseURI="https://api.ratesapi.io";
 	}

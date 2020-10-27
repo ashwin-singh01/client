@@ -20,7 +20,7 @@ public class Scenario3_4 {
 
 	@When("The api incomplete is provided")
 	public void the_api_incomplete_is_provided() {
-	    // Write code here that turns the phrase above into concrete actions
+	    // Write code here that turns the phrase above into concrete action
 		res=RestAssured.get("/api/latest?base=USD&symbols=GBP");
 		//throw new io.cucumber.java.PendingException();
 	}
